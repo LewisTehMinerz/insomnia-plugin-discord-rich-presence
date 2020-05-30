@@ -1,0 +1,12 @@
+{
+  "name": "insomnia-plugin-discord-rich-presence",
+  "version": "0.1.0",
+  "insomnia": {
+    "name": "discord-rich-presence",
+    "description": "Discord Rich Presence support for Insomnia."
+  },
+  "main": "main.js",
+  "dependencies": {
+    "discord-urpc": "^1.0.1"
+  }
+}
