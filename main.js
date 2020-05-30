@@ -2,8 +2,6 @@ const insomniaClientId = '716305301317615657';
 const startTimestamp = Date.now();
 
 const RPC = require('discord-urpc');
-const url = require('url');
-const { request } = require('http');
 
 const client = new RPC({ clientID: insomniaClientId, debug: true });
 
